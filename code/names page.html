@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Name in space</title>
+<link href="file:///C|/Users/lmackenzie2/OneDrive%20-%20Brisbane%20Catholic%20Education/2023/digi%20tech/term%202/code/css/css%20page.css" rel="stylesheet" type="text/css">
+<style>
+  body {
+    background-color: powderblue;
+  }
+  .certificate {
+    display: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+  }
+</style>
+</head>
+<body>
+<center>
+  <table width="934" border="1">
+    <tbody>
+      <tr>
+        <td width="84" height="54"><h3><a href="home page.html">Home</a></h3></td>
+        <td width="196"><h3><a href="satellite info page.html">Satellite Information</a></h3></td>
+        <td width="388"><h4>Put Your Name in Space</h4></td>
+        <td width="87"><h3><a href="second attemt.html">Satellite Path</a></h3></td>
+        <td width="216"><h3><a href="second attemt.html">Space program</a></h3></td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <form id="nameForm">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+          </form>
+          <div id="certificate" class="certificate">
+            <h2>Certificate of Participation</h2>
+            <p>This certifies that</p>
+            <h3 id="certName"></h3>
+            <p>has participated in the Space Program.</p>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</center>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="java for name page.js"></script>
+</body>
+</html>
