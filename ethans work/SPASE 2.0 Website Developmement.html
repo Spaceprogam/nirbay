@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SPASE 2.0 Project - Satellite Location</title>
+    <style type="text/css">
+        .jeff {
+            font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif;
+        }
+        .map-container {
+            position: relative;
+            margin-top: 20px; /* Adjust as needed */
+            background-image: url('C:/Users/lmackenzie2/OneDrive - Brisbane Catholic Education/2024/space stuff/images/space.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire container */
+            z-index: 1; /* Ensure the map is behind the satellite */
+        }
+
+        .map {
+            width: 638px; /* Adjust as needed */
+            height: auto;
+            opacity: 0.7; /* Adjust transparency if needed */
+        }
+
+        .satellite {
+            position: absolute;
+            top: 187px; /* Adjust as needed */
+            left: 24px; /* Adjust as needed */
+            transition: left 10s linear; /* Adjust duration as needed */
+            width: 96px;
+            height: 79px;
+            z-index: 2; /* Ensure the satellite is in front of the map */
+        }
+    </style>
+</head>
+
+<body>
+<center>
+	<div id="title-bar">
+		<div id="title-bar-1">
+			<img alt="SPASE 2.0 Logo" id="SPASE-Logo" src="C:\Users\lmackenzie2\OneDrive - Brisbane Catholic Education\2024\space stuff\code\ethans work\SPASE 2.0 Patch.png"/>
+			<h1 id="title">SPASE 2.0 Project - 2024</h1>
+			<img alt="Griffith-University-Logo" src="https://i0.wp.com/blogs.griffith.edu.au/wp-content/uploads/2017/09/griffith-logo.png?ssl=1" width="20%"/>
+		</div>
+		<div id="title-bar-2"> 
+			<h2 id="subtitle">Website brought to you by Clairvaux Mackillop College</h2>
+		</div>
+	</div>
+    <table>
+        <main>
+            <tr>
+				<td width="125"><h3><a href="C:\Users\lmackenzie2\OneDrive - Brisbane Catholic Education\2024\space stuff\code\home page.html">Home</a></h3></td>
+                <td width="125"><h3><a href="C:\Users\lmackenzie2\OneDrive - Brisbane Catholic Education\2024\space stuff\code\satellite info page.html">Satellite Information</a></h3></td>
+                <td width="491"><center><h4>Satellite Location</h4></center></td>	
+				<td width="230"><h3><a href="C:\Users\lmackenzie2\OneDrive - Brisbane Catholic Education\2024\space stuff\code\names page.html">Put your name in space</a></h3></td>
+            </tr>
+            <tr>
+                <td height="437" colspan="3">
+                    <center>
+                        <div class="map-container">
+                           <img src="C:/Users/lmackenzie2/OneDrive - Brisbane Catholic Education/2024/space stuff/images/cube_sat-removebg-preview.png" alt="Satellite" class="satellite">
+                          <img src="C:/Users/lmackenzie2/OneDrive - Brisbane Catholic Education/2024/space stuff/images/world_map-removebg-preview.png" alt="" class="map" align="middle">
+                        </div>
+					</center>
+				</td>
+				<td id="location-information" colspan="2">
+					<h2 id="location-information-heading">Location Information</h2>
+					<h3 class="location-data">Latitude: </h3>
+					<h3 class="location-data">Longitude: </h3>
+					<h3 class="location-data">Altitude: </h3>
+					<h3 class="location-data">Speed: </h3>
+					<h3 class="location-data">Time: </h3>
+				</td>
+			</tr>
+		</main>
+    </table>
+		</center>
+<script src="C:\Users\lmackenzie2\OneDrive - Brisbane Catholic Education\2024\space stuff\code\website javasricpt.js"></script> <!-- Include the JavaScript file -->
+<link href="css page.css" rel="stylesheet" type="text/css" />
+
+
+	</body>
+</html>
